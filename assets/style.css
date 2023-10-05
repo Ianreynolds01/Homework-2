@@ -4,7 +4,7 @@
     background-image: url("112121.jpg");
     background-color: rgb(122, 158, 146);
     padding: 20px;
-    color: azure;
+    
     display: flex;
     justify-content: flex-end; bottom: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -20,7 +20,7 @@ ul{
     list-style: none;
 }
 li{
-    color: whitesmoke;
+    color: white;
     display: inline-block;
     margin-right: 10px;
     border-bottom: 2px solid rgb(153, 151, 151);
@@ -28,7 +28,80 @@ li{
 h1{
     
     background-color: rgb(4, 27, 129);
+    border: 3px solid rgb(53, 52, 52);
+    border-radius: 8px;
 }
-about{
-    display: inline-flex;
+.about{
+ display: inline-block;
+
 }
+section {
+            display: inline-block;
+            padding-left: 20px;
+            
+ }
+ .title{
+    display: flex;
+
+    margin: 10px;
+ }
+
+ h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(53, 52, 52);
+    border-right: 2px solid gray ;
+ }
+ .card{
+   
+    margin: 10px;
+    padding: 10px;  
+    position: absolute;
+    bottom: 20px; left: 10px;
+    border-style: solid;
+    border-width: 4px; color: #155f75;
+    display: inline-block;
+    background-color: antiquewhite;
+ }
+ *{
+    box-sizing: border-box;
+ }
+ p{
+    display: inline-block;
+    padding-left: 20px;
+ }
+ .work{
+   display: inline-block;
+   position: relative;
+   padding:20px
+ }
+ .flex{
+    flex-direction: column;
+ }
+ .work:hover{
+    box-shadow: #155f75;
+ }
+ .contact{
+    display: inline-block;
+    
+ }
+ .contactinfo{
+    text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        text-decoration: underline; color: #5a5a5a;
+        margin-left: 60px;
+        
+ }
+ a{
+    color: white;
+ }
+ 
+ 
+
+
+    
+    
+
+
+
